@@ -1,0 +1,672 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <!-- styles -->
+    
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
+    </style>
+    <title>Bulidcon</title>
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="#"><span class="text-warning">Bulid</span>Con</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#team">Team</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#contact">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#testomonials">Testomonials</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#pricetable">Price Table</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#projects">Projects</a>
+                    </li>
+
+                </ul>
+
+    </nav>
+    <!-- Hero section -->
+    <section id="home">
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="assests/home-1.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption" data-aos="fade-up" data-aos-easing="ease-out-cubic"
+                        data-aos-duration="4000">
+                        <h5>Your Dream House</h5>
+                        <p class="para-font">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, porro sapiente. Eum
+                            adipisci nesciunt non.</p>
+                        <a href="#" class="btn btn-warning mt-3">Learn More</a>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="assests/home-2.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption ">
+                        <h5>ALWAYS DEDICATED</h5>
+                        <p class="para-font">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore excepturi quasi sunt. Quo,
+                            vitae
+                            recusandae?</p>
+                        <a href="#" class="btn btn-warning mt-3">Learn More</a>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="assests/home-3.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption">
+                        <h5>TRUE CONTRUCTION</h5>
+                        <p class="para-font">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium adipisci dolor harum
+                            iure
+                            repellendus hic?</p>
+                        <a href="#" class="btn btn-warning mt-3">Learn More</a>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+    <!-- About section -->
+    <section id="about">
+        <h1 class="mainhead">About Us</h1>
+
+        <div class="row team-section row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+                <div class="card h-100" data-aos="fade-up" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+                    <img src="assests/about.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Beautiful View</h5>
+                        <p class="card-text text-center para-font">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut
+                            repudiandae facilis at?</p>
+                    </div>
+                    <div class="card-footer text-center">
+                        <small class="text-muted ">Last updated 3 mins ago</small>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100" data-aos="fade-up" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+                    <img src="assests/about1.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Best Houses </h5>
+                        <p class="card-text text-center para-font">This card has supporting text below as a natural lead-in to
+                            additional content.
+                        </p>
+                    </div>
+                    <div class="card-footer text-center">
+                        <small class=" text-muted ">Last updated 3 mins ago</small>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100" data-aos="fade-up" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+                    <img src="assests/about2.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Less Expensive</h5>
+                        <p class="card-text text-center para-font">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Temporibus, voluptatem.</p>
+
+                    </div>
+                    <div class="card-footer text-center">
+                        <small class="text-muted ">Last updated 3 mins ago</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Team section -->
+    <section id="team">
+        <h1 class="mainhead">Our Team</h1>
+
+        <div class="row team-section row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+                <div class="card h-100" data-aos="fade-up" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+                    <img src="assests/team5.avif" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Alex Smith</h5>
+                        <p class="card-text text-center para-font">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut
+                            repudiandae facilis at?</p>
+                        <div class=" icon-container socials text-center mt-5">
+                            <a href="https://twitter.com/?lang=en" target="_blank"><i
+                                    class="bi bi-twitter text-dark mx-1 twitter "></i></a>
+                            <a href="https://www.facebook.com/" target="_blank"> <i
+                                    class="bi bi-facebook text-dark mx-1 facebook"></i></a>
+                            <a href="https://pk.linkedin.com/" target="_blank"> <i
+                                    class="bi bi-linkedin text-dark mx-1 linkedin"></i></a>
+                            <a href="https://www.whatsapp.com/" target="_blank"> <i
+                                    class="bi bi-whatsapp text-dark mx-1 whatsapp"></i></a>
+                        </div>
+
+                    </div>
+                    <div class="card-footer text-center">
+                        <small class="text-muted ">Joined 3 years ago</small>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100" data-aos="fade-up" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+                    <img src="assests/team6.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Lorem ipsum</h5>
+                        <p class="card-text text-center para-font">This card has supporting text below as a natural lead-in to
+                            additional content.
+                        </p>
+                        <div class=" icon-container socials text-center  mt-5">
+                            <a href="https://twitter.com/?lang=en" target="_blank"> <i
+                                    class="bi bi-twitter text-dark mx-1  twitter"></i></a>
+                            <a href="https://www.facebook.com/" target="_blank"> <i
+                                    class="bi bi-facebook text-dark mx-1 facebook"></i></a>
+                            <a href="https://pk.linkedin.com/" target="_blank"> <i
+                                    class="bi bi-linkedin text-dark mx-1 linkedin"></i></a>
+                            <a href="https://www.whatsapp.com/" target="_blank"> <i
+                                    class="bi bi-whatsapp text-dark mx-1 whatsapp"></i></a>
+                        </div>
+
+                    </div>
+                    <div class="card-footer text-center">
+                        <small class=" text-muted ">Joined 2 years ago</small>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100" data-aos="fade-up" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+                    <img src="assests/team7.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Amet consectetur</h5>
+                        <p class="card-text text-center para-font">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Temporibus, voluptatem.</p>
+                        <div class=" icon-container socials text-center  mt-5">
+                            <a href="https://twitter.com/?lang=en" target="_blank"> <i
+                                    class="bi bi-twitter text-dark mx-1 twitter"></i></a>
+                            <a href="https://www.facebook.com/" target="_blank"><i
+                                    class="bi bi-facebook text-dark mx-1 facebook"></i></a>
+                            <a href="https://pk.linkedin.com/" target="_blank"> <i
+                                    class="bi bi-linkedin text-dark mx-1 linkedin"></i></a>
+                            <a href="https://www.whatsapp.com/" target="_blank"> <i
+                                    class="bi bi-whatsapp text-dark mx-1 whatsapp"></i></a>
+                        </div>
+
+                    </div>
+                    <div class="card-footer text-center">
+                        <small class="text-muted ">Joined 6 month ago</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- contact us section -->
+
+    <h1 class="mainhead" id="contact">Contact Us</h1>
+    <section class="Contact-us-section" data-aos="fade-up" data-aos-duration="1000">
+        <div class="container contact-us-container">
+
+
+            <form class="row g-3">
+                <div class="col-md-6">
+                    <label for="inputEmail4" class="form-label">Email:</label>
+                    <input type="email" class="form-control" id="inputEmail4">
+                </div>
+                <div class="col-md-6">
+                    <label for="inputPassword4" class="form-label">Password:</label>
+                    <input type="password" class="form-control" id="inputPassword4">
+                </div>
+                <div class="col-12">
+                    <label for="inputAddress" class="form-label">Address:</label>
+                    <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+                </div>
+                <div class="col-12">
+                    <label for="inputAddress2" class="form-label">Address 2:</label>
+                    <input type="text" class="form-control" id="inputAddress2"
+                        placeholder="Apartment, studio, or floor">
+                </div>
+                <div class="col-md-6">
+                    <label for="inputCity" class="form-label">City:</label>
+                    <input type="text" class="form-control" id="inputCity">
+                </div>
+                <div class="col-md-4">
+                    <label for="inputState" class="form-label">State:</label>
+                    <select id="inputState" class="form-select">
+                        <option selected>Choose...</option>
+                        <option>...</option>
+                    </select>
+                </div>
+                <div class="col-md-2">
+                    <label for="inputZip" class="form-label">Zip:</label>
+                    <input type="text" class="form-control" id="inputZip">
+                </div>
+                <div class="col-12">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="gridCheck">
+                        <label class="form-check-label para-font" for="gridCheck">
+                            Accept our terms and conditions!
+                        </label>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <button type="submit" class="btn btn-primary rounded px-3 py-2">Submit Now</button>
+                </div>
+            </form>
+
+        </div>
+    </section>
+    <!-- Testomonials section -->
+    <section id="testomonials" class="team-section-head">
+        <div class="container">
+            <h1 class="mainhead">What Our Clients Say About Us.</h1>
+            <p class="text-center mt-3 pricing-text para-font">Donec vulputate urna sed rutrum venenatis. <br> Cras consequat
+                magna quis arcu elementum, quis congue risus volutpat.</p>
+            <!-- 1st testomonial -->
+            <div class="row testomonials  row-cols-1 row-cols-md-3 g-4 pt-4">
+                <div class="col">
+                    <div class="card h-100" data-aos="fade-up" data-aos-easing="ease-out-cubic"
+                        data-aos-duration="2000">
+                        <img src="assests/testomonial1.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Alis Collin</h5>
+                            <p class="card-text text-center para-font">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Perferendis, minus?</p>
+                        </div>
+                        <div class="card-footer text-center">
+                            <small class="text-muted">1 day ago</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100" data-aos="fade-up" data-aos-easing="ease-out-cubic"
+                        data-aos-duration="2000">
+                        <img src="assests/testomonial2.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Clay Whasington</h5>
+                            <p class="card-text text-center para-font">This card has supporting text below as a natural lead-in to
+                                additional content.</p>
+                        </div>
+                        <div class="card-footer text-center">
+                            <small class="text-muted">2 months ago</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100" data-aos="fade-up" data-aos-easing="ease-out-cubic"
+                        data-aos-duration="2000">
+                        <img src="assests/testomonial3.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Nakil Haq</h5>
+                            <p class="card-text text-center para-font">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Unde, distinctio.</p>
+                        </div>
+                        <div class="card-footer text-center">
+                            <small class="text-muted"> 3 months ago</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+        </div>
+
+        </div>
+    </section>
+    <!-- Pricing Plans -->
+
+    <section class="pricing-section" id="pricetable">
+        <h1 class="mainhead">Pricing Plans</h1>
+        <p class="text-center mt-3 mb-5 pricing-text para-font">Donec vulputate urna sed rutrum venenatis. <br> Cras consequat
+            magna quis arcu elementum, quis congue risus volutpat.</p>
+        <div class="container pricing-container">
+            <div class="row row-cols-1 row-cols-md-3 g-4 ">
+                <div class="col">
+                    <div class="card h-100 pricing-card pl-5" data-aos="fade-up" data-aos-easing="ease-out-cubic"
+                        data-aos-duration="2000">
+                        <div class="card-body">
+                            <h3 class="card-title text-start fs-2">Starter</h3>
+                            <div class=" text-start mt-3 mb-3  text-bold fs-1  "><sup class="fs-2 text-primary">$</sup><span
+                                    class="text-primary">300</span><span class="fs-4 text-muted"> / month</span>
+                            </div>
+                            <p class=" text-start mt-1 pricing-para"><i class="bi bi-check text-success fs-3"></i> 4 big
+                                Rooms <br> <i class="bi bi-check text-success fs-3"></i> 1 Kitchen <br> <i
+                                    class="bi bi-check text-success fs-3"></i> 1
+                                Living Room <br> <i class="bi bi-check text-success fs-3"></i> 1 Bathroom <br> <del>
+                                    <i class="bi bi-x fs-3 text-danger"></i> <span class="text-muted"> Master
+                                        Bedroom</span></del> <br><del><i class="bi bi-x fs-3 text-danger"></i><span
+                                        class="text-muted">Guest Room</span></del><br><del><i
+                                        class="bi bi-x fs-3 text-danger"></i><span class="text-muted">Family Room</span>
+                                </del><br> <button class="btn btn-primary mt-3 px-3 py-2 rounded">Buy NOW</button></p>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 pricing-card pl-5" data-aos="fade-up" data-aos-easing="ease-out-cubic"
+                        data-aos-duration="2000">
+                        <div class="card-body ">
+                            <h3 class="card-title text-start fs-2">Premium</h3>
+                            <div class=" text-start mt-3 mb-3  text-bold fs-1  "><sup class="fs-2 text-primary">$</sup><span
+                                    class="text-primary">600</span><span class="fs-4 text-muted"> / month</span>
+                            </div>
+                            <p class=" text-start mt-1 pricing-para"><i class="bi bi-check text-success fs-3"></i> 4 big
+                                Rooms <br> <i class="bi bi-check text-success fs-3"></i> 1 Kitchen <br> <i
+                                    class="bi bi-check text-success fs-3"></i> 1
+                                Living Room <br> <i class="bi bi-check text-success fs-3"></i> 1 Bathroom <br> 
+                                    <i class="bi bi-check text-success fs-3"></i>  Master
+                                        Bedroom <br><del><i class="bi bi-x fs-3 text-danger"></i><span
+                                        class="text-muted">Guest Room</span></del><br><del><i
+                                        class="bi bi-x fs-3 text-danger"></i><span class="text-muted">Family Room</span>
+                                </del><br> <button class="btn btn-primary mt-3 px-3 py-2 rounded">Buy NOW</button></p>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 pricing-card pl-5" data-aos="fade-up" data-aos-easing="ease-out-cubic"
+                        data-aos-duration="2000">
+                        <div class="card-body">
+                            <h3 class="card-title text-start fs-2">Advance</h3>
+                            <div class=" text-start mt-3 mb-3  text-bold fs-1  "><sup class="fs-2 text-primary">$</sup><span
+                                    class="text-primary ">999</span><span class="fs-4 text-muted"> / month</span>
+                            </div>
+                            <p class=" text-start mt-1 pricing-para"><i class="bi bi-check text-success fs-3"></i> 4 big
+                                Rooms <br> <i class="bi bi-check text-success fs-3"></i> 1 Kitchen <br> <i
+                                    class="bi bi-check text-success fs-3"></i> 1
+                                Living Room <br> <i class="bi bi-check text-success fs-3"></i> 1 Bathroom <br>
+                                <i class="bi bi-check text-success fs-3"></i>  Master Bedroom <br><i class="bi bi-check text-success fs-3"></i> Guest Room<br><i class="bi bi-check text-success fs-3"></i> Family Room
+                                <br> <button class="btn btn-primary mt-3 px-3 py-2 rounded">Buy NOW</button></p>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+    </section>
+
+
+    <!-- Project-section -->
+    <section class="project-section" id="projects">
+        <h3 class="mainhead text-warning">Our Projects</h3>
+        <p class="text-center mt-3 mb-5 text-bold  project-text">Latest Work</p>
+        <div class="project-container">
+
+
+            <div class="row row-cols-1 row-cols-md-3 g-3">
+                <div class="col">
+                    <div class="card h-100" data-aos="fade-up" data-aos-easing="ease-out-cubic"
+                        data-aos-duration="2000">
+                        <img src="assests/modernbeadroom.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Master Bedroom</h5>
+                            <p class="card-text text-center para-font">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Iste quaerat quisquam dolores illo neque hic, harum ipsam ex aperiam aut</p>
+                        </div>
+                        <div class="card-footer text-center">
+                            <small class="text-muted">Last updated 3 days ago</small>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card h-100" data-aos="fade-up" data-aos-easing="ease-out-cubic"
+                        data-aos-duration="2000">
+                        <img src="assests/Guestroom.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Guest Room</h5>
+                            <p class="card-text text-center para-font">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Optio esse voluptatum amet accusamus officiis repudiandae aliquam sequi eligendi ab
+                                ipsa?</p>
+                        </div>
+                        <div class="card-footer text-center">
+                            <small class="text-muted">Last updated 2 Weeks ago</small>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card h-100" data-aos="fade-up" data-aos-easing="ease-out-cubic"
+                        data-aos-duration="2000">
+                        <img src="assests/familyroom.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Family Room</h5>
+                            <p class="card-text text-center para-font">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                Pariatur, officia velit! Repellendus sed id at maiores ipsa provident delectus saepe!
+                            </p>
+                        </div>
+                        <div class="card-footer text-center">
+                            <small class="text-muted">Last updated 50 mins ago</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Add more Project items as needed -->
+
+            <p class="text-center text-bold project-text-second  ">Previous Work</p>
+
+            <div class="row row-cols-1 row-cols-md-3 g-3">
+                <div class="col">
+                    <div class="card h-100" data-aos="fade-up" data-aos-easing="ease-out-cubic"
+                        data-aos-duration="2000">
+                        <img src="assests/kitchen.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Kitchen</h5>
+                            <p class="card-text text-center para-font">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                Sint sit non blanditiis architecto itaque numquam est, suscipit dolorem saepe in.</p>
+                        </div>
+                        <div class="card-footer text-center">
+                            <small class="text-muted">Last updated 1 Month ago</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100" data-aos="fade-up" data-aos-easing="ease-out-cubic"
+                        data-aos-duration="2000">
+                        <img src="assests/livingroom.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Living Room</h5>
+                            <p class="card-text text-center para-font">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                Voluptate provident at eos sint. Doloribus animi, corporis molestiae praesentium
+                                blanditiis beatae.</p>
+                        </div>
+                        <div class="card-footer text-center">
+                            <small class="text-muted">Last updated 5 Weeks ago</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100" data-aos="fade-up" data-aos-easing="ease-out-cubic"
+                        data-aos-duration="2000">
+                        <img src="assests/livingroom1.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Waiting Room</h5>
+                            <p class="card-text text-center para-font">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Excepturi perferendis mollitia nemo reiciendis, alias nam est laudantium quas asperiores
+                                inventore.</p>
+                        </div>
+                        <div class="card-footer text-center">
+                            <small class="text-muted">Last updated 3 months ago</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Fact-about-us-section -->
+    <section class="fact-section">
+
+            <div class="pt-5 pb-5">
+                <div class="container">
+                  <div class="row">
+                    <div class="section-head col-sm-12">
+                      <h4><span>Why Choose</span> Me?</h4>
+                      <p>Lorem Ipsum is simply dummy text of the printing and type setting industry. Lorem Ipsum has been the industry's<br>standard dummy text ever since the 1500s, when an unknown book.</p>
+                    </div>
+                    <div class="col-lg-4 col-sm-6">
+                      <div class="item"> <span class="icon feature_box_col_one"><i class="fa fa-globe"></i></span>
+                        <h6>Modern Design</h6>
+                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor Aenean massa.</p>
+                      </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6">
+                      <div class="item"> <span class="icon feature_box_col_two"><i class="fa fa-anchor"></i></span>
+                        <h6>Creative Design</h6>
+                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor Aenean massa.</p>
+                      </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6">
+                      <div class="item"> <span class="icon feature_box_col_three"><i class="fa fa-hourglass-half"></i></span>
+                        <h6>Your Photoshoping</h6>
+                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor Aenean massa.</p>
+                      </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6">
+                      <div class="item"> <span class="icon feature_box_col_four"><i class="fa fa-database"></i></span>
+                        <h6>Business Growth</h6>
+                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor Aenean massa.</p>
+                      </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6">
+                      <div class="item"> <span class="icon feature_box_col_five"><i class="fa fa-upload"></i></span>
+                        <h6>Market Strategy</h6>
+                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor Aenean massa.</p>
+                      </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6">
+                      <div class="item"> <span class="icon feature_box_col_six"><i class="fa fa-camera"></i></span>
+                        <h6>Retina Ready</h6>
+                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor Aenean massa.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            
+            <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+
+
+
+
+
+
+
+    </section>
+
+
+
+    <!-- footer section -->
+    <section class="footer">
+        <div class="container">
+            <div class="row footer-section">
+
+                <div class="col-4 pl-5 mt-3 pb-5 col-md-4 col-lg-3 col-sm-12 text-start">
+                    <a class="navbar-brand" id="footer-logo" href="#"><span class="text-warning">Bulid</span>Con</a>
+
+                </div>
+
+                <div class="col-4 col-md-4 col-lg-3 col-sm-12 ">
+                    <h3 class="footer-head">Resources</h3>
+                    <ul class="text-dark footer-links">
+                        <a href="#home">
+                            <li>Home</li>
+                        </a>
+                        <a href="#about">
+                            <li>About</li>
+                        </a>
+                        <a href="#team">
+                            <li>Team</li>
+                        </a>
+                        <a href="#contact">
+                            <li>Contact</li>
+                        </a>
+                        <a href="#testomonials">
+                            <li>Testomonials</li>
+                        </a>
+                    </ul>
+                </div>
+
+                <div class="col-4 col-md-4 col-lg-3 col-sm-12 col-xl-4  social">
+                    <h3 class="footer-head"> Our Socials</h3>
+                    <ul class="text-dark footer-links">
+                        <a href="#">
+                            <li>Twitter</li>
+                        </a>
+                        <a href="#">
+                            <li>Facebook</li>
+                        </a>
+                        <a href="#">
+                            <li>Linkedin</li>
+                        </a>
+                        <a href="#">
+                            <li>Whatsapp</li>
+                        </a>
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Sub footer -->
+
+    <section class="sub-footer bg-primary">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12 text-center text-dark pt-2 pb-2 text-white">
+                    Copyright © 2023 Bulidcon. All rights reserved.
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
